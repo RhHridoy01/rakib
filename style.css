@@ -1,0 +1,143 @@
+*{margin: 0;padding: 0}
+body{background:#E8E8ff}
+.container{
+	width: 1170px;
+	margin: 50px auto;
+	background: #fff;
+	display: block;
+	overflow: hidden;
+}
+.left-side{
+	width: 25%;
+	float:left;
+	background: #55B689;
+	text-align: center;
+	padding: 150px 10px;
+	box-sizing: border-box;
+}
+.left-side img{
+	border-radius: 50%;
+	width: 70%;
+}
+.left-side h1{
+	font-family: oswald;
+	font-size: 31px;
+	color:#dbff00;
+	text-transform: uppercase;
+}
+.left-side p{
+	font-family: tahoma;
+	color: #fff;
+}
+.left-side p:hover{
+	background: red;
+}
+.nav-item{
+	margin-top: 30px;
+}
+.nav-item ul{
+	list-style: none;
+}
+.nav-item ul li{
+	border-bottom:1px dotted #34ec64;
+}
+.nav-item ul li:last-child{
+	border-bottom:none;
+}
+.nav-item ul li a{
+	text-decoration: none;
+	padding: 10px 0px;
+	display: block;
+	text-transform: uppercase;
+	font-family: tahoma;
+	color: #231414;
+}
+.nav-item ul li a:hover{
+	background: #00ff89;
+}
+.hire-me{
+	background: #3D8061;
+	padding: 10px 30px;
+	color: #fff;
+	margin-top: 35px;
+	border-radius: 20px;
+}
+.hire-me:hover{
+	background:orange;
+}
+.right-side{
+	width: 75%;
+	float:right;
+}
+.About{
+	background-color: #fff;
+	padding: 10px;
+	display: block;
+	overflow: hidden;
+
+}
+.About-content{
+	width: 60%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.About-content h1:hover{
+	background: orange;
+	width:auto;
+	height: auto;
+}
+.Auto-content h4{
+	font-family: tahoma;
+	color: #ddd;
+}
+.About-content p{
+	text-align: justify;
+}
+.thumbnail img{
+	float: right;
+	width: 40%;
+	padding-top: 47px;
+}
+.Download{
+	background-color: green;
+	border-style: none;
+	padding: 8px 20px;
+	color: white;
+	text-transform: uppercase;
+	font-family: tahoma;
+	margin-top: 27px;
+	border-radius: 20px;
+
+}
+.Download:hover{
+	background-color: rgb(221,18,18);
+}
+.cg-bg{
+	background-color:#007FFF ;
+}
+.What-do{
+	padding: 20px;
+}
+.What-do h2{
+	font-family: tahoma;
+	border-left: 3px blue solid;
+	padding: 0px 10px;
+
+}
+.What-do p{
+	font-family: tahoma;
+	text-align: justify;
+}
+.skill{
+	padding: 30px;
+	padding-top: 50px;
+}
+.single-skill{
+	width: 32%;
+	float: left;
+	border-right: 1px black solid;
+	padding: 0px 10px;
+	box-sizing:border-box;
+	text-align: justify;
+}
